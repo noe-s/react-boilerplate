@@ -1,0 +1,14 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    > * { //target all children (i.e. inputs)
+        margin-bottom: $m-size;
+    }
+}
+
+.form__error {
+    margin: 0 0 $m-size 0;
+    font-style: italic;
+
+}
